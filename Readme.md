@@ -9,18 +9,9 @@ The container for this image is available at
 
 https://hub.docker.com/r/neomatrixcode/merly
 
-Build
-----------
-```
-docker build -t neomatrixcode/merly:1.0.2-alpine .
-```
 
 Execution
 ----------
 ```
-docker run --rm -it -p 5000:5000 neomatrixcode/merly:1.0.2-alpine
+docker run --rm -it -p 5000:5000  -v /app:/app neomatrixcode/merly:1.0.2-alpine julia myapp.jl
 ```
-
-Browser
-----------
-Browse to http://127.0.0.1:5000 and you should see the welcome page
