@@ -7,7 +7,7 @@ Docker hub
 ----------
 The container for this image is available at
 
-https://hub.docker.com/repository/docker/neomatrixcode/merly
+https://hub.docker.com/r/neomatrixcode/merly
 
 Build
 ----------
